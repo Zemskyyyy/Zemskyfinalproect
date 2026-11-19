@@ -1,0 +1,36 @@
+@font-face {
+    font-family:outfitlight;
+    src: url(Fonts/Outfit-Light.woff2);}
+    @font-face {
+    
+    font-family:outfitextrabold; 
+src: url(fonts/Outfit-ExtraBold.woff2);}
+@font-face {
+
+font-family:outfitregular;
+src: url(fonts/Outfit-Regular.woff2);
+}
+html {font-size:62.5%;}
+#wrapper {width: 800px; background-color:black; margin:auto;}
+
+
+
+h1,h2,h3 {text-align:center; font-family:outfitextrabold;}
+h1,h2 {font-size: 3em;} /*size in pixels 3x10=30*/
+h3 {font-size:2.5em;}
+
+.Nbaharden {background-color:red;color:white;}
+.Nbacurry {background-color:rgba(0, 0, 255, 0.67); color:yellow;}
+.Nbakobe {background-color:purple;color:gold;}
+.Nbajordon {background-color:rgb(255, 0, 0);color:black;}
+
+p {font-family:outfitregular; font-size:2em;} /*Size in pizels 2x10=20*/
+p {color:pink;}
+.citation {font-size:1em ;width: 300px;} /* size in pixels 1x10=10 */
+
+
+ul {font-family:outfitregular; font-size:2em;}
+ol {font-family: fantasy; font-size:18px;}
+a:link {color:pink} 
+a:visited {color:pink;}
+
